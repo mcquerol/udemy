@@ -1,0 +1,10 @@
+10.1. a+b -> Correct statement
+10.2. a*b -> Incorrect statement
+10.3. a.*b -> Correct statement
+10.4. A*b -> Correct statement
+10.5. A.*b -> correct statement
+10.6. a’*b -> Correct statement
+10.7. a*b’ -> Correct statement
+10.8. A*A -> Correct statement
+10.9. A.*A -> Correct statement
+10.10. A*B -> Correct statement
