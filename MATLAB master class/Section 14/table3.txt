@@ -1,0 +1,6 @@
+Row,Ages_years,Height_foots,Weight_Kgs
+Nouman,38,4,85
+Asif,15,5,90
+Shahid,49,9,78
+Joe,78,8,56
+Azam,54,10,42
