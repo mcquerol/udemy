@@ -1,0 +1,40 @@
+
+Description:  This time table contains information regarding the temperatures
+
+RowTimes:
+
+    <strong>timesofday</strong>: 3×1 datetime
+        Values:
+            Min         08-Nov-2000 
+            Median      06-Apr-2002 
+            Max         06-May-2003 
+
+Variables:
+
+    <strong>Timestmps</strong>: 3×1 double
+
+        Properties:
+            Units:  seconds
+            Description:  first variable
+        Values:
+
+            Min         264   
+            Median      360   
+            Max         448   
+
+    <strong>Temperatures</strong>: 3×1 double
+
+        Properties:
+            Units:  forenheit
+            Description:  second variable
+        Values:
+
+            Min          45   
+            Median       56   
+            Max          89   
+
+    <strong>Humiditylevel</strong>: 3×1 cell array of character vectors
+
+        Properties:
+            Units:  humidity
+            Description:  third variable
