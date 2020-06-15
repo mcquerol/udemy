@@ -1,0 +1,17 @@
+%---- Note: The table T has been defined based on the commands in the previous tutorial ---- 
+
+>> X = readtable('iris.dat')
+
+>> whos X 
+
+>> X = readtable('iris.xlsx')
+
+>> X = readtable('iris.xlsx','ReadVariableNames',false)
+
+>> X = readtable('iris.csv','Delimiter',',')
+
+>> writetable(X,'table1.txt','Delimiter',',')
+
+>> writetable(X,'table2.txt','Delimiter',',','WriteVariableNames',false);
+
+>> writetable(T,'table3.txt','Delimiter',',','WriteRowNames',true);
