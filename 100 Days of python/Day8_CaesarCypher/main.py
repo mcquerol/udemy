@@ -6,23 +6,26 @@
 #     asciiNum+= key
 #     asciiLetter = chr(asciiNum)
 #     print(asciiLetter, end="")
+lowercase_letters = [chr(ord('a') + i) for i in range(26)]
 
 def logo():
     pass
 
 def cypher(inSentence, shiftKey, cypherType):
+    i = 0
     for character in inSentence:
-        asciiNum = ord(character)
-        if cypherType == "encode":
-            asciiNum+= shiftKey
-        elif cypherType == "decode":
-            asciiNum-= shiftKey
-        asciiLetter = chr(asciiNum)
-        print(asciiLetter, end="")
-            
+        # if cypherType == "encode":
+        #     asciiLetter = lowercase_letters[i+shiftKey]
+        # elif cypherType == "decode":
+        #     asciiLetter = lowercase_letters[i-shiftKey]
+        if character.isalpha():
+            print(character, end="")
+        else:
+            print(" ", end="")
+    #print(asciiLetter, end="")
 
 if __name__ == "__main__":
-    inSentence = input("Enter a sentence: ")
-    shiftKey = int(input("Type the shift number: "))
-    cypherType = input("Would you like to encode or decode?:")
-    cypher(inSentence, shiftKey, cypherType)
+    #inSentence = input("Enter a sentence: ")
+    #shiftKey = int(input("Type the shift number: "))
+    #cypherType = input("Would you like to encode or decode?: ")
+    cypher(inSentence = "hello world", shiftKey = 3, cypherType = "decode")
