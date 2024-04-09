@@ -18,7 +18,7 @@ def cypher(inSentence, shiftKey, cypherType):
             print(" ", end="")
 
 if __name__ == "__main__":
-    #inSentence = input("Enter a sentence: ")
-    #shiftKey = int(input("Type the shift number: "))
-    #cypherType = input("Would you like to encode or decode?: ")
+    inSentence = input("Enter a sentence: ")
+    shiftKey = int(input("Type the shift number: "))
+    cypherType = input("Would you like to encode or decode?: ")
     cypher(inSentence = "hello world", shiftKey = 3, cypherType = "encode")
